@@ -1,0 +1,157 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    background-color:  #00000060;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.container{
+    margin: 100px auto ;
+    max-width: 370px;
+    width: 100%;
+    background: #f4f4f4;
+    border-radius: 10px;
+
+}
+.container .header{
+    width: 100%;
+    height: 150px;
+    background-image: url("./images/pexels-ann-nekr-5797903.jpg");
+    background-size: 100% 200%;
+    border-radius: 15px 15px 0 0;
+    position: relative;
+    background-repeat: no-repeat;
+
+}
+.container h1{
+    text-align: center;
+    padding-top: 3rem;
+    z-index: 1;
+    color: #8e49e8;
+    font-size: 3rem;
+    font-weight: 600;
+    
+}
+#date{
+    padding-top: 2rem;
+    padding-left: 1rem;
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    color: #7015e7;
+    font-size: 1.2rem;
+    font-weight: 600;
+
+}
+#content{
+    min-height: 300px;
+    max-height: 700px;
+    padding: 0.8rem;
+    overflow: auto;
+}
+
+.content::-webkit-scrollbar{
+    display: none;
+}
+
+.check_me{
+    margin-top: 1rem;
+}
+.item{
+    width: 350px;
+    height: 45px;
+    min-height: 45px;
+    position: relative;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.144);
+    list-style: none;
+    display: flex;
+    
+}
+.fa-circle{
+    position: absolute;
+    font-size: 25px;
+    padding-left: 5px;
+    top: 10px;
+}
+.fa-circle:hover{
+    cursor: pointer;
+}
+.item p.text{
+    position: absolute;
+    font-size: 0.9rem;
+    left: 35px;
+    top: 1rem;
+    max-width: 285px;
+}
+.fa-check-circle{
+    color: #6eb200;
+    position: absolute;
+    font-size: 25px;
+    padding-left: 5px;
+    top: 10px;
+}
+.fa-check-circle:hover{
+    cursor: pointer;
+}
+.lineThrough{
+    text-decoration: line-through;
+    color: rgb(214, 9, 9);
+}
+.fa-trash-alt{
+    position: absolute;
+    font-size: 20px;
+    right:2rem;
+    top:1rem;
+}
+.fa-trash-alt:hover{
+    color: #dd0e0e;
+    cursor: poi;
+}
+footer{
+    padding: 1rem;
+   
+}
+.add-to-do{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.fa-plus-circle{
+    color: #8e49e8;
+    font-size: 1.2rem;
+    cursor: pointer;
+    margin-top: 26px;
+}
+.fa-plus-circle:hover{
+    color:#8e49e8d7 ;
+    font-size: 1.3rem;
+}
+#input{
+    outline-style: none;
+    margin-top: 2rem;
+    margin-left: 0.6rem;
+    width:78%;
+    height: 2rem;
+    border: 1px solid #fff;
+    font-size: 1rem;
+    border-radius: 3px;
+    padding-left:15px ;
+    
+}
+#clear{
+    margin-top: 30px;
+}
+.fa-sync-alt{
+    font-size: 1.3rem;
+    color: #8e49e8;
+    cursor: pointer;
+    margin-left: 5px;
+
+}
+.fa-sync-alt:hover{
+    transform: rotate(45deg);
+}
+
